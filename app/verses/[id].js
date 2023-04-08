@@ -22,7 +22,7 @@ const Verses = () => {
       <Stack.Screen
         options={{
           title: `Surah ${verses?.[0]?.verse_key || ""}`,
-          headerTitleAlign: "center",
+          headerTintColor: "#A020F0",
         }}
       />
 
@@ -40,23 +40,25 @@ const Verses = () => {
               paddingHorizontal: 20,
               borderBottomWidth: 1,
               borderBottomColor: "#eee",
-              borderRadius: 10,
               marginVertical: 10,
             }}
           >
             <Text
               style={{
-                fontSize: 20,
-                fontWeight: "bold",
-                textAlign: "center",
-                paddingVertical: 10,
+                fontSize: 22,
+                fontWeight: "600",
+                paddingVertical: 5,
+                marginVertical: 5,
               }}
             >
               {item.text_madani}
             </Text>
             <Text
               style={{
-                textAlign: "center",
+                fontSize: 15,
+                fontWeight: "500",
+                color: "gray",
+                lineHeight: 20,
               }}
             >
               {item.translations?.[0].text}
