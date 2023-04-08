@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "Al-Quran",
-    "slug": "Al-Quran"
+    "slug": "Al-Quran",
+    "extra": {
+      "eas": {
+        "projectId": "c65d88f7-ea3a-46fa-8926-f8c0537c883a"
+      }
+    },
+    "android": {
+      "package": "com.tanvirshakil.AlQuran"
+    }
   }
 }
